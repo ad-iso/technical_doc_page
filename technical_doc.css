@@ -1,0 +1,47 @@
+body{
+  margin:0px;
+display: flex;
+flex-direction: :row;
+justify-content: space-between;
+min-height: 200vh;
+
+}
+
+header{
+  width:20vw;
+  position:fixed;
+  align-self: stretch;
+  border-right: solid;
+}
+
+header p {
+  display:block;
+  border-top: solid;
+  margin: 0px;
+  padding: 15px 40px 15px 50px;
+  text-align: justify;
+
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+
+}
+main{
+padding: 20px;
+width:80vw;
+margin-left:20vw;
+}
+
+nav{
+
+  height: 100vh;
+
+}
+
+@media (max-width: 720px){
+  h1{
+    font-size: 16px;
+  }
+}
